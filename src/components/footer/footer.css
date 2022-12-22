@@ -1,0 +1,11 @@
+.secfoot {
+    background-color: rgb(7, 95, 154);
+}
+.footer {
+    width: 50%;
+    /* display: flex; */
+    text-align: center;
+    font-size: large;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
+}

@@ -1,0 +1,141 @@
+.intro {
+    color: var(--color--primary);
+    /* top: 5rem; */
+    position: relative;
+    /* display: inline; */
+    padding: 2rem;
+    text-align: center;
+    /* background-color: rosybrown; */
+}
+
+
+.about__container {
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 15%;
+}
+
+/* .about{
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+    display: grid;
+    place-items: center;
+} */
+
+.hello {
+    /* background: linear-gradient(45deg, transparent, var(--color-primary), transparent); */
+    background-color: rgba(0, 213, 255, 0.493);
+    border-radius: 2rem;
+    background: linear-gradient(45deg, transparent, rgba(0, 213, 255, 0.493), transparent);
+
+    
+
+}
+
+.about__me-image {
+    border-radius: 2rem;
+    overflow: hidden;
+    transform: rotate(10deg);
+    transition: var(--transition);
+}
+.about__me-image:hover {
+    transform: rotate(0);
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    transition: var(--transition);
+}
+
+.about__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    text-align: center;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    transition: var(--transition);
+}
+
+.about__card:hover {
+    background: transparent;
+    border-color: var(--color--primary-variant);
+    cursor: pointer;
+    
+}
+
+.about__card:hover h5 {
+    font-size: 1.6rem;
+    transition: var(--transition);
+}
+
+
+
+.about_icon {
+    color: var(--color--primary);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.about__card h5 {
+    font-size: 1.2rem;
+    color: var(--color-white);
+}
+
+.about__card small {
+    font-size: 0.8rem;
+    color: var(--color-light);
+}
+
+.about__content p {
+    margin: 2rem 0 2.6rem;
+
+}
+
+
+/* =================== MEDIA Quesries (Medium Devices) ================== */
+
+@media screen and (max-width: 1024px){ 
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+}
+.hello {
+    width: 50%;
+    margin: 2rem auto 4rem;
+}
+
+.about__content {
+    margin: 1rem 2rem 1.5rem;
+}
+.about__content p {
+    margin: 1rem 0 1.5rem;
+}
+
+}
+
+/* =================== MEDIA Quesries (Small Devices) ================== */
+
+@media screen and (max-width: 600px){ 
+    .hello {
+        /* width: 65%; */
+        margin: 0 auto 3rem;
+    }
+
+    .about__cards {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+    .about__content{
+        text-align: center;
+    }
+
+    .about__content p{
+        margin: 1.5rem 9;;
+    }
+}
