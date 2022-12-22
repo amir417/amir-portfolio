@@ -6,10 +6,6 @@ import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 import styled from 'styled-components';
 
-const WhiteText = styled.p`
-  color: #0c6a30;
-  font-weight: bold;
-`;
 
 
 const About = () => {
