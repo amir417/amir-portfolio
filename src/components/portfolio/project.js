@@ -1,4 +1,5 @@
-import ME from '../../assets/kobe.jpg'
+import ME from '../../assets/fallByedemoday.jpg'
+import rankStocks from '../../assets/rankstocksthumbnail.png'
 
 
 const projects = [
@@ -6,30 +7,38 @@ const projects = [
 {
     id: 1,
     image: ME, 
-    title: "This is a title for a portfolio",
+    title: "U of T Engineering Hatchery Demo Day 2022 Winners",
     github: 'https://github.com/amir417',
-    demo: 'https://amir417.github.io/'
+    button1: 'bussines plan',
+    demo: 'https://amir417.github.io/',
+    button2: 'UofT Newsletter'
 },
 {
     id: 2,
     image: ME, 
-    title: "This is a title for a portfolio",
+    title: "TrackTC",
     github: 'https://github.com/amir417',
-    demo: 'https://amir417.github.io/'
+    button1: 'bussines plan',
+    demo: 'https://amir417.github.io/',
+    button2: 'UofT Newsletter'
 },
 {
     id: 3,
     image: ME, 
     title: "This is a title for a portfolio",
     github: 'https://github.com/amir417',
-    demo: 'https://amir417.github.io/'
+    button1: 'bussines plan',
+    demo: 'https://amir417.github.io/',
+    button2: 'UofT Newsletter'
 },
 {
     id: 4,
-    image: ME, 
-    title: "This is a title for a portfolio",
-    github: 'https://github.com/amir417',
-    demo: 'https://amir417.github.io/'
+    image: rankStocks, 
+    title: "Rank Stocks (in progress)",
+    github: 'https://github.com/amir417/rank-stocks',
+    button1: 'GitHub',
+    demo: 'https://rank-stocks.netlify.app/',
+    button2: 'Live Demo'
 },
 {
     id: 5,
