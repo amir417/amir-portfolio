@@ -29,10 +29,10 @@ nav a:hover{
     color: rgb(158, 202, 241);
 }
 
-nav a.active {
+/* nav a.active {
     background: var(--color-bg);
     color: var(--color-white);
-}
+} */
 .active:hover {
     color: rgb(158, 202, 241);
 }

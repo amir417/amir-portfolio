@@ -1,6 +1,7 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me.jpeg'
+import MEq from '../../assets/me.jpeg'
+// import ME from '../../assets/amirunpro2.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -16,7 +17,7 @@ const About = () => {
           
           <div className= 'hello'>
               <div className="about__me-image">
-                <img src={ME} alt = "about image" />
+                <img src={MEq} alt = "about image" />
               </div>
           </div>
 
@@ -25,26 +26,27 @@ const About = () => {
                 <article className='about__card'>
                   <FaAward className='about_icon'/>
                   <h5>Experience</h5>
-                  <small>0 experience lol</small>
+                  <small>Just Getting Started</small>
                 </article>
 
                 <article className='about__card'>
                   <FiUsers className='about_icon'/>
                   <h5>Clients</h5>
-                  <small>multiple worldwide</small>
+                  <small>Community Organzations</small>
                 </article>
 
                 <article className='about__card'>
                   <VscFolderLibrary className='about_icon'/>
                   <h5>Projects</h5>
-                  <small>3+ years working</small>
+                  <small>Listed at:</small>
+                  <a href="#portfolio"> Portfolio</a>
                 </article>
               </div>
-              <p>My Name is 
-                and typesetting industry. Lorem Ipsum has been the 
-                industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scr
-                printer took a galley of type and scr</p>
+              <p>Hello there. My name is Amirreza Aazam and I currently study Electrical and Computer Engineering at the University of Toronto. This website
+                is intended to showcase my skills and side-projects. Please note that some of the writtings are not meant to be taken seriously (joking around is part of being an engineer, right?). 
+                Anyways, I hope you enjoy scrolling through my website and please contact me if you
+                have any questions. 
+              </p>
           </div>
 
         </div>
