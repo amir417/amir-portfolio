@@ -1,6 +1,7 @@
 import ME from '../../assets/fallByedemoday.jpg'
 import rankStocks from '../../assets/rankstocksthumbnail.png'
 import trackttc from '../../assets/tracktc.png'
+import dayLog from '../../assets/dayLog.png'
 
 
 
@@ -19,10 +20,10 @@ const projects = [
     id: 2,
     image: trackttc, 
     title: "TrackTC",
-    github: 'https://github.com/skim1601/tracktc',
+    github: 'https://github.com/amir417/trackttc',
     button1: 'GitHub',
-    demo: 'https://devpost.com/software/tracktc',
-    button2: 'DevPost'
+    demo: 'http://ec2-18-219-242-183.us-east-2.compute.amazonaws.com/',
+    button2: 'Live Demo'
 },
 {
     id: 3,
@@ -31,6 +32,15 @@ const projects = [
     github: 'https://github.com/amir417/rank-stocks',
     button1: 'GitHub',
     demo: 'https://rank-stocks.netlify.app/',
+    button2: 'Live Demo'
+},
+{
+    id: 4,
+    image: dayLog, 
+    title: "Daily Logger",
+    github: 'https://github.com/amir417/daily-logger',
+    button1: 'GitHub',
+    demo: 'https://daily-weblogger.netlify.app/',
     button2: 'Live Demo'
 },
 ];
