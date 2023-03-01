@@ -2,6 +2,8 @@ import ME from '../../assets/fallByedemoday.jpg'
 import rankStocks from '../../assets/rankstocksthumbnail.png'
 import trackttc from '../../assets/tracktc.png'
 import dayLog from '../../assets/dayLog.png'
+import aazami from '../../assets/aazami.png'
+import mapper from '../../assets/mapper.png'
 
 
 
@@ -42,6 +44,24 @@ const projects = [
     button1: 'GitHub',
     demo: 'https://daily-weblogger.netlify.app/',
     button2: 'Live Demo'
+},
+{
+    id: 5,
+    image: aazami, 
+    title: "Aazamami",
+    github: 'https://github.com/skim1601/Aazami',
+    button1: 'GitHub',
+    demo: 'https://devpost.com/software/aazami',
+    button2: 'Devpost'
+},
+{
+    id: 6,
+    image: mapper, 
+    title: "Mapper",
+    github: 'https://github.com/amir417',
+    button1: 'GitHub',
+    demo: 'https://github.com/amir417',
+    button2: 'Demo'
 },
 ];
 
